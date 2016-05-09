@@ -1,0 +1,28 @@
+{
+  "name": "fcc-tribute-page",
+  "version": "1.0.0",
+  "description": "FCC Tribute Page",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo --live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasVerdier/fcc-tribute-page.git"
+  },
+  "keywords": [
+    "fcc",
+    "tribute",
+    "page"
+  ],
+  "author": "Matias Verdier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatiasVerdier/fcc-tribute-page/issues"
+  },
+  "homepage": "https://github.com/MatiasVerdier/fcc-tribute-page#readme",
+  "devDependencies": {
+    "budo": "^8.2.2"
+  }
+}

@@ -1,0 +1,83 @@
+@import url(https://necolas.github.io/normalize.css/4.1.1/normalize.css);
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.background-image {
+  background-attachment: fixed;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  align-items: center;
+  background-color: rgba(18, 24, 30, 0.77);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.content {
+  padding: 25px 50px
+}
+
+.image {
+  background-image: url(../images/jordan.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  min-height: 400px;
+  min-width: 400px;
+  opacity: 0.8;
+}
+
+.main-text {
+  font-size: 2em;
+  letter-spacing: 5px;
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+footer {
+  align-items: center;
+  background-color: rgb(18, 24, 30);
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  padding: 15px;
+}
+
+
+@media screen and (max-width: 470px) {
+  .image {
+    min-height: 280px;
+    min-width: 280px;
+  }
+
+  .content {
+    padding: 25px 25px;
+  }
+
+  .main-text {
+    font-size: 1.4em;
+    letter-spacing: 3px;
+  }
+}
+
