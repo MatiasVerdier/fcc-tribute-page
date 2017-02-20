@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/MatiasVerdier/fcc-tribute-page#readme",
   "devDependencies": {
-    "budo": "^8.2.2"
+    "budo": "^9.4.7"
   }
 }
